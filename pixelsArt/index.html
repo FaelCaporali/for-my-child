@@ -11,25 +11,32 @@
 
   <body>
     <aside id="allColors">
-        Escolha a sua cor!
-        <div id="colorInputBox"><input type="color" id="colorInput" /></div>
-        <button id="random">Modo arco-íris</button> 
-        <!-- <button id="salva">Salve sua imagem!</button> -->
+      Escolha a sua cor!
+      <div id="colorInputBox"><input type="color" id="colorInput" /></div>
+      <button id="random">Modo arco-íris</button>
+      <!-- <button id="salva">Salve sua imagem!</button> -->
     </aside>
-    <div id="tela"> 
-      <h1 id="title">Paleta de cores</h1>
+    <aside id="paleta-inicial">
 
       <div id="color-palete">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
+      
+        <div id="buttons-box">
+          <button id="clear-board">Limpar</button>
+          <input type="number" id="board-size" />
+          <button type="form" id="generate-board">Novo quadro</button>
+        </div>
+      
       </div>
-      <div id="buttons-box">
-        <button id="clear-board">Limpar</button>
-        <input type="number" id="board-size" />
-        <button type="form" id="generate-board">Novo quadro</button>
-      </div>
+      
+    </aside>
+    
+    <main id="tela">
+      
+      
       <table id="pixel-board">
         <tr>
           <td class="pixel"></td>
@@ -67,7 +74,7 @@
           <td class="pixel"></td>
         </tr>
       </table>
-    </div>
+    </main>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

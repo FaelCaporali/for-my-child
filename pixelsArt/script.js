@@ -77,8 +77,8 @@ window.onload = function () {
   // instalando input de numero
   function numberInput() {
     let inputNumber = document.getElementById("board-size");
-    inputNumber.max = 50;
-    inputNumber.min = 5;
+    inputNumber.max = 19;
+    inputNumber.min = 2;
     inputNumber.required = true;
   }
   //button generate new box handler
@@ -95,10 +95,10 @@ window.onload = function () {
   //Ajusta números
   function adjustNumbers() {
     let parametro = document.getElementById("board-size").value;
-    if (parametro > 50) {
-      parametro = 50;
-    } else if (parametro < 5) {
-      parametro = 5;
+    if (parametro > 18) {
+      parametro = 19;
+    } else if (parametro < 3) {
+      parametro = 2;
     }
     return parametro;
   }

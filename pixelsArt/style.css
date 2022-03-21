@@ -1,4 +1,9 @@
 
+button {
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
 body {
   background-color: #2fc18c;
 }
@@ -12,16 +17,16 @@ h1 {
 }
 .color {
   border: solid black 1px;
-  display: inline-block;
   width: 40px;
   height: 40px;
-  margin: 5px;
+  margin: 15px auto;
   outline: double black 2px;
+  border-radius: 10px;
 }
 #allColors {
   display: absolute;
   position: fixed;
-  right: 30px;
+  right: 10px;
   top: 30px;
   text-align: center;
   line-height:50px;
@@ -63,6 +68,7 @@ h1 {
 }
 #tela {
     text-align: center;
+    display: block;
 }
 #buttons-box {
   margin: 5px auto;
@@ -75,4 +81,12 @@ h1 {
 #salva {
   margin: 5px;
   border-radius: 10px;
+}
+
+#paleta-inicial {
+  position:fixed;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 100px;
 }
