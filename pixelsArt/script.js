@@ -148,8 +148,8 @@ window.onload = function () {
   };
   function ativaRandomColor(event) {
     let pi = document.querySelectorAll('.pixel');
-    if (event.target.innerText !== 'desativa arco-íris') {
-      event.target.innerText = 'desativa arco-íris';
+    if (event.target.innerText !== 'Desativa arco-íris') {
+      event.target.innerText = 'Desativa arco-íris';
       for (i in pi) {
         pi[i].addEventListener('click', randomColor);
         pi[i].removeEventListener('click', paint)
