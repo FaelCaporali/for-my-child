@@ -148,14 +148,14 @@ window.onload = function () {
   };
   function ativaRandomColor(event) {
     let pi = document.querySelectorAll('.pixel');
-    if (event.target.innerText !== 'desativa aleatório') {
-      event.target.innerText = 'desativa aleatório';
+    if (event.target.innerText !== 'desativa arco-íris') {
+      event.target.innerText = 'desativa arco-íris';
       for (i in pi) {
         pi[i].addEventListener('click', randomColor);
         pi[i].removeEventListener('click', paint)
       };
     } else {
-      event.target.innerText = 'ativa aleatório';
+      event.target.innerText = 'Modo arco-íris';
       pixelsListeners();
       for (i in pi) {
         pi[i].removeEventListener('click', randomColor);
