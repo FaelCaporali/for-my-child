@@ -1,0 +1,47 @@
+body {
+    background-color: #cb429f;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: #daa89b;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #690375;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#lista {
+    background: url(unicornio.webp) center;
+    background-size:30%;
+    height: 70vh;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+.pag {
+    border-radius: 10px;
+}
+
+.myCards {
+    width: 65vw;
+    border-radius: 10px;
+    background-color:#cb429f;
+}
+
+.myCards > img {
+    border-radius: 10px;
+}
